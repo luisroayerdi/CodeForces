@@ -37,7 +37,7 @@ int main(){
 }
 
 void tooLong(string word){
-    if (word.size() <= 10)
+    if (word.size() <= 9)
     {
         cout << word << '\n';
     }
