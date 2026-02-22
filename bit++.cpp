@@ -18,7 +18,7 @@ int main(){
             count++;
         }
         else {
-            count--;
+            count++;
         }
     }
 
