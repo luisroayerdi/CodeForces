@@ -6,20 +6,20 @@ int main(){
 
     int n;
     cin >> n;
-
-    string x;
-
     int count = 0;
 
     for(int i = 0; i < n; i++){
+        string x;
         cin >> x;
 
-        if (x == "++X" or "X++"){
-            count++;
+        if (x == "++X" or x == "X++"){
+            count+=1;
         }
-        else {
-            count++;
+        else if (x == "--X" or x == "X--"){
+            count-=1;
         }
     }
+
+    cout << count;
 
 }
