@@ -1,2 +1,0 @@
-#reverse pyramid solution
-
