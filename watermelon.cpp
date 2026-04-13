@@ -1,18 +1,17 @@
 #include <iostream>
 
-//Status: Accepted: 62ms
+// Status: Accepted: 62ms
 
 using namespace std;
 
-int main(){
-    int x;
+int main() {
+  int x;
 
-    cin >> x;
+  cin >> x;
 
-    if (x%2 == 0 && x != 2){
-        cout << "YES";
-    }
-    else {
-        cout << "NO";
-    }
+  if (x % 2 == 0 && x != 2) {
+    cout << "YES";
+  } else {
+    cout << "NO";
+  }
 }
